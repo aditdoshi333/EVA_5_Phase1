@@ -1,11 +1,13 @@
 ﻿**Step 1**
 
-Target:
-1.  Get the set-up right
-2.  Set Transforms
-3.  Set Data Loader
-4.  Set Basic Working Code
-5.  Get the basic light model right. We will try and avoid changing this skeleton as much as possible.
+ 
+
+1. Target:
+	1.  Get the set-up right
+	2.  Set Transforms	
+	3.  Set Data Loader
+	4.  Set Basic Working Code
+	5.  Get the basic light model right. We will try and avoid changing this skeleton as much as possible.
 6.  Results:
     1.  Parameters: 8474
     2.  Best Training Accuracy: 98.71 (15th epoch)
@@ -18,14 +20,14 @@ Target:
 
 **Step 2**
 
-Target:
-1. Add Batch-norm to increase model efficiency.
-2.  Add Dropout to increase model efficiency.
+1. Target:
+	1. Add Batch-norm to increase model efficiency.
+	2.  Add Dropout to increase model efficiency.
 3.  Results:
-    1.  Parameters: 8622
-    2.  Best Training Accuracy: 99.18 ( 15th epoch)
-    3.  Best Test Accuracy: 99.24 ( 12th epoch)
-4.  Analysis:
+	1.  Parameters: 8622
+	5.  Best Training Accuracy: 99.18 ( 15th epoch)
+	6.  Best Test Accuracy: 99.24 ( 12th epoch)
+2.  Analysis:
     1.  By using batch norm we are able to get pretty decent accuracy in intial epoch. From 9% (Step 1 epoch 1) to 92%
     2. From the data we can see that in some image rotation is present. So we can use rotation to augment training data.
     3.  There is no over fitting so we can add layer after GAP layer to push it further.
@@ -34,14 +36,14 @@ Target:
 
 **Step 3**
 
-Target:
-1. Increase model capacity at the end (add layer after GAP)
-2.  Add rotation, our guess is that 7-10 degrees should be sufficient.
-6.  Results:
+1. Target:
+	1. Increase model capacity at the end (add layer after GAP)
+	2.  Add rotation, our guess is that 7-10 degrees should be sufficient.
+2.  Results:
     1.  Parameters: 9678
     2.  Best Training Accuracy: 98.76 (15th epoch)
     3.  Best Test Accuracy: 99.21 (15th epoch)
-7.  Analysis:
+3.  Analysis:
     1.  It is a good model can be pushed further. There is no over fitting in the model so it is a good sign.
     3. From the graph we can see that there are oscillations in accuracy. We can fix that using LR scheduler. 
   
@@ -50,8 +52,8 @@ Target:
 
 **Step 4**
 
-Target:
-1.  Add LR Scheduler
+1. Target:
+	1.  Add LR Scheduler
 
 2.  Results:
     1.  Parameters: 9678
