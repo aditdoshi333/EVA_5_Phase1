@@ -23,7 +23,7 @@ The following are the results of the for all 5 experiments:
 **Validation accuracy**
 
 ```
-![alt text](/images/val_acc.png)
+![alt text](https://github.com/aditdoshi333/EVA_5_Phase1/blob/master/Assignment_6/images/val_acc.pnghttps://github.com/aditdoshi333/EVA_5_Phase1/blob/master/Assignment_6/images/val_acc.png)
 ```
 
  **Validation loss**
