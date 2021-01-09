@@ -23,7 +23,7 @@ The following are the results of the for all 5 experiments:
 **Validation accuracy**
 
 
-![Validation Accuracy](images/val_acc.png)
+![Validation_Accuracy](images/val_acc.png)
 
 
  **Validation loss**
