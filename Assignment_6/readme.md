@@ -22,21 +22,20 @@ The following are the results of the for all 5 experiments:
 
 **Validation accuracy**
 
-```
-![alt text](https://github.com/aditdoshi333/EVA_5_Phase1/blob/master/Assignment_6/images/val_acc.pnghttps://github.com/aditdoshi333/EVA_5_Phase1/blob/master/Assignment_6/images/val_acc.png)
-```
+
+![Validation Accuracy](https://github.com/aditdoshi333/EVA_5_Phase1/blob/master/Assignment_6/images/val_acc.pnghttps://github.com/aditdoshi333/EVA_5_Phase1/blob/master/Assignment_6/images/val_acc.png)
+
 
  **Validation loss**
  
-```
+
 ![Validation Loss](images/val_loss.png?raw=true )
-```
+
 
 **Misclassified images by GBN model**
 
-```
+
 ![Misclassifications](images/miss_class.png?raw=true )
-```
 
 
 	 
