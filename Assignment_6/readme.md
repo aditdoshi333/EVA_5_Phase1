@@ -22,21 +22,20 @@ The following are the results of the for all 5 experiments:
 
 **Validation accuracy**
 
-```
-![Validation Accuracy](images/val_acc.png?raw=true )
-```
+
+![Validation_Accuracy](images/val_acc.png)
+
 
  **Validation loss**
  
-```
+
 ![Validation Loss](images/val_loss.png?raw=true )
-```
+
 
 **Misclassified images by GBN model**
 
-```
+
 ![Misclassifications](images/miss_class.png?raw=true )
-```
 
 
 	 
