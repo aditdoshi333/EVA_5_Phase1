@@ -1,4 +1,4 @@
-#Assignment 8:  ResNet implementation
+# Assignment 8:  ResNet implementation
 
 In the assignment there four files and one notebook integrating
 all the files and training the model.
